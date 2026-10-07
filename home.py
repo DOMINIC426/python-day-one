@@ -33,3 +33,17 @@ print(random.randrange(100,200))
 x= "Hey Dominic"
 
 print(x[0])
+
+
+# search some text in string 
+x= "Java is my prior language i love the most than all languages"
+if "Java" in x :
+  print("Yes Java is in "+x.strip().capitalize())
+  print(x.split("m"))  # split removes the specific word and do not replace it 
+
+
+n=89;
+n="java int converted to string"
+print(type(n))
+print(n.find("int"))
+
