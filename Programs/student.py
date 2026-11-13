@@ -20,6 +20,10 @@ for i in range(studentNumber):
 
         score = int(input(f"Enter the score for {subjects[j]} for {studentName}: "))
 
+        if score >100 or score<0:
+            print("Invalid value")
+            break
+
         scores.append(score)
 
     # Store student and their scores together
