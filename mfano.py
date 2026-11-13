@@ -11,3 +11,4 @@ person ={
 
 print("The name of the person is ",person['name'], "and scores at index one is \n",*person["scores"])
 print(person)
+
