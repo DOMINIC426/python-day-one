@@ -1,17 +1,13 @@
-import random
-y =random.randrange(200,2000)
-x = {"abuja","salama","Dominic"}
-m = 40
-maneno = "Jamani kesho wote tuwahi people people people"
-thislist = ["apple", "banana", "cherry"]
-for i in range(len(thislist)):
-  print(thislist[i]) 
 
-print(len(x))
-print('the random number actual is '+format(y))
-print(maneno.lower())
-print(maneno.capitalize())
-print(f"some people mmay like you {m:3}")
-print(f'the count of people is {maneno.count('people')}')
-print(range(3))
+# try   to use well the  dictionary
 
+person ={
+    "name":"Dominic",
+    "age":2,
+    "height":30,
+    "scores":[30,70,40]
+}
+
+
+print("The name of the person is ",person['name'], "and scores at index one is \n",*person["scores"])
+print(person)
