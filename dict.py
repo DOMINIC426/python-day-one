@@ -22,3 +22,10 @@ print(x) #before the change
 car["color"] = "white"
 
 print(x) #after the change 
+
+## print or access the value
+
+y = thisdict.get("colors")
+
+for i in y:
+    print(y)

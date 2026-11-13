@@ -8,6 +8,7 @@
 list1 = ["Pythics","Chemistry","Biology"]
 list1.insert(0,"Civics")
 list1.append("Mathematics")
+list1.pop(1)
 
 for i in list1 :
     print("Book number "+format(list1.index(i)+1)+".............")
