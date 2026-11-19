@@ -1,29 +1,25 @@
+import sample
 
-# try   to use well the  dictionary
+class Animal:
 
-person ={
-    "name":"Dominic",
-    "age":2,
-    "height":30,
-    "scores":[30,70,40]
-}
+    def __init__(self,name:str,age:int,books:list):
+        self.name=name
+        self.age=age
+
+    def greetings()->str:
+        print("Hello World Welcome to the classes issues in Python")
+
+    #creating the object 
+animal = Animal("Dominic",39,["Physics","Biology","Mathematics"])  
+print(animal.name)
+print(sample.greeting())
+print(animal.greetings())
 
 
-# print("The name of the person is ",person['name'], "and scores at index one is \n",*person["scores"])
-# print(person)
 
-people = [
+class Dog(Animal):
+    pass
 
-  {
-    "name":"Dominic",
-    "age":40,
-    "subjects":["Kiswahili","Hisabati","English"]
-  },
-  {
-    "name":"Jamana",
-    "age":43,
-    "subjects":["Kiswahili","Hisabati","English"]
-  }
-]
+dog = Dog("Mbwa",20,["am","jas"]);
 
-print(*people[0]['subjects'])
+    

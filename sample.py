@@ -3,6 +3,9 @@
 
 list = [1,2,3,8,5,7,10,9]
 
+def greeting():
+    print("Hello World From Sample python made easy now days")
+
 ## print the greatest number 
 greaterNumber =list[0];
 
